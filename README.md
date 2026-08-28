@@ -211,25 +211,6 @@ You can pass raw audience URLs or GUIDs directly:
 ```
 
 
-
-### User Agents (13)
-
-| Name | Platform | Purpose |
-|---|---|---|
-| Windows10Chrome | Windows | Standard probe |
-| Windows10Edge | Windows | Edge-specific CA testing |
-| Windows10Firefox | Windows | Firefox-specific CA testing |
-| MacOSSafari | macOS | macOS platform classification |
-| MacOSChrome | macOS | macOS with Chrome |
-| LinuxFirefox | Linux | Linux platform classification |
-| AndroidChrome | Android | Android platform classification |
-| iOSSafari | iOS | iOS platform classification |
-| ChromeOS | Unknown | Device platform bypass (OPSEC-friendly) |
-| WindowsPhone | Covered | Classified as known platform by Entra |
-| PlayStation5 | Unknown | Device platform bypass (noisy) |
-| NintendoSwitch | Unknown | Device platform bypass (noisy) |
-| KaiOS | Unknown | Device platform bypass (noisy) |
-
 ## How It Works
 
 ### ROPC Flow
@@ -288,11 +269,6 @@ The pipeline: **CAPO finds gaps** -> **SATO mints tokens** -> **FOCI pivot** for
 | **SP Disabled / Bad Resource** | Client/resource incompatibility | Not a CA finding — try different client |
 | **LOCKED** | Account locked or IP burned | Stop immediately |
 
-
-
-## License
-
-BSD 3-Clause
 
 ## Author
 
