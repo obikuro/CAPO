@@ -15,7 +15,7 @@
 
 ## What is CAPO?
 
-CAPO is a PowerShell module that discovers Conditional Access policy gaps in Microsoft Entra ID tenants by probing the Resource Owner Password Credentials (ROPC) flow. It systematically tests combinations of resources, client applications, and user agents to find where MFA enforcement has gaps — excluded cloud apps, unrecognized device platforms, or client app conditions that don't cover ROPC.
+CAPO is a PowerShell module that discovers Conditional Access policy gaps in Microsoft Entra ID tenants by probing the Resource Owner Password Credentials (ROPC) flow. It systematically tests combinations of resources, client applications, and user agents to find where MFA enforcement has gaps, excluded cloud apps, unrecognized device platforms, or client app conditions that don't cover ROPC.
 
 CAPO is designed for **authorized penetration testing and red team operations**. It implements low-and-slow pacing with jitter, automatic lockout detection, and safety thresholds to minimize detection risk.
 
